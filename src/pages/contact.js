@@ -1,16 +1,26 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 
-const Contact = () => (
+const Contact = ({ data }) => (
   <Layout>
-    <h1>Contact</h1>
-    <p>Welcome to contact page</p>
-    <Link to="/">Go back to the homepage</Link>
-    <br />
-    <Link to="/about">Go back to the about</Link>
+    <h1>{data.allAboutJson.edges[1].node.title}</h1>
+    <p>{data.allAboutJson.edges[1].node.main}</p>
   </Layout>
 )
+
+export const query = graphql`
+  query ContactPage {
+     allAboutJson {
+      edges {
+        node {
+          title
+          main
+        }
+      }
+    }
+  }
+`
 
 export default Contact
