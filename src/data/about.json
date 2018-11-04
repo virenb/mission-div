@@ -1,6 +1,21 @@
 [
 	{
 		"title": "About Mission Diversity",
-		"main": "Hello world, Hello world, Hello world, Hello world, Hello world, Hello world, Hello world, Hello world, Hello world, Hello world, Hello world,"
+		"main": "We are solving Corporate America's Diversity Problem. Mission Diverse specializes in using Vocational Technology and a Robust Sourcing Methodology to help connect our highly talented Diverse Technologists with exciting and impactful careers with our Corporate Clients."
+	},
+	{
+		"title": "Contact Us",
+		"main": "Netlify Form will go here"
+	},
+	{
+		"title": "Services",
+		"positions": [
+			"Business Analysts",
+			"Project Managers",
+			"Digital Marketing Specialists",
+			"Quality Assurance Analysts",
+			"Bilingual (Spanish) Specialists",
+			"Financial Compliance Analysts"
+		]
 	}
 ]
