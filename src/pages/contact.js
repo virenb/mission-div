@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 
 const Contact = ({ data }) => (
   <Layout>
-    <h1>{data.allAboutJson.edges[1].node.title}</h1>
+    <h1 style={{ margin: '15px 0' }}>{data.allAboutJson.edges[1].node.title}</h1>
     <p>{data.allAboutJson.edges[1].node.main}</p>
   </Layout>
 )
