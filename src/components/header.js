@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Navbar, NavItem } from 'react-materialize';
+import { Navbar, NavItem, Icon } from 'react-materialize';
+
+import md from '../images/md.png'
 
 const Header = ({ siteTitle }) => (
   <Navbar brand={siteTitle} right style={{ paddingLeft: '10px', backgroundColor: 'navy' }}>
