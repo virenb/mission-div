@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Navbar, NavItem, Icon } from 'react-materialize';
-
-import md from '../images/md.png'
+import { Navbar, NavItem } from 'react-materialize';
 
 const Header = ({ siteTitle }) => (
   <Navbar brand={siteTitle} right style={{ paddingLeft: '10px', backgroundColor: 'navy' }}>
@@ -10,7 +8,6 @@ const Header = ({ siteTitle }) => (
     <NavItem><Link to="/services/">Services</Link></NavItem>
     <NavItem><Link to="/contact/">Contact</Link></NavItem>
   </Navbar>
-
 );
 
 export default Header;

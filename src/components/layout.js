@@ -7,6 +7,7 @@ import './layout.css'
 
 import Header from './header'
 import AppFooter from './footer'
+import Image from './image'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -32,6 +33,7 @@ const Layout = ({ children }) => (
         </Helmet>
         <div className="site">
           <Header siteTitle={data.site.siteMetadata.title} />
+          <Image />
           <div className="site-content">{children}</div>
           <AppFooter />
         </div>
