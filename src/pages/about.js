@@ -1,12 +1,17 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
+import { Row, Col } from 'react-materialize';
 
 import Layout from '../components/layout';
 
 const About = ({ data }) => (
   <Layout>
     <h1 style={{ margin: '15px 0' }}>{data.allAboutJson.edges[0].node.title}</h1>
-    <p>{data.allAboutJson.edges[0].node.main}</p>
+    <Row>
+      <Col s={12}>
+        <p>{data.allAboutJson.edges[0].node.main}</p>
+      </Col>
+    </Row>
   </Layout>
 );
 
