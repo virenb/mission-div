@@ -1,12 +1,11 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Row, Input } from 'react-materialize';
 
 import Layout from '../components/layout';
 
 const Contact = ({ data }) => (
   <Layout>
-    <h1 style={{ margin: '15px 0' }}>{data.allAboutJson.edges[1].node.title}</h1>
+    <h1 style={{ margin: '15px 0' }}>{data.allAboutJson.edges[2].node.title}</h1>
     <div className="row">
       <form 
         name="contact" 
@@ -41,6 +40,6 @@ export const query = graphql`
       }
     }
   }
-`
+`;
 
 export default Contact;

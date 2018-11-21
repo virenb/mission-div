@@ -1,6 +1,7 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { Link, Img } from 'gatsby';
 import { Navbar, NavItem } from 'react-materialize';
+
 
 const Header = ({ siteTitle }) => (
   <Navbar brand={siteTitle} right style={{ paddingLeft: '10px', backgroundColor: 'navy' }}>
@@ -11,3 +12,5 @@ const Header = ({ siteTitle }) => (
 );
 
 export default Header;
+
+

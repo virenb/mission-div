@@ -1,13 +1,15 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import { StaticQuery, graphql } from 'gatsby';
+import { Parallax } from 'react-materialize';
 
 import './layout.css'
+import group from '../images/group-crop1.jpg';
 
-import Header from './header'
-import AppFooter from './footer'
-import Image from './image'
+import Header from './header';
+import AppFooter from './footer';
+
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -33,7 +35,7 @@ const Layout = ({ children }) => (
         </Helmet>
         <div className="site">
           <Header siteTitle={data.site.siteMetadata.title} />
-          <Image />
+          <Parallax imageSrc={group} />
           <div className="site-content">{children}</div>
           <AppFooter />
         </div>
@@ -46,5 +48,5 @@ Layout.propTypes = {
     children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default Layout;
 
