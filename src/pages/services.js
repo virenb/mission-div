@@ -6,9 +6,9 @@ import Layout from '../components/layout';
 
 const Services = ({ data }) => (
   <Layout>
-    <h1 style={{ margin: '15px 0' }}>{data.allAboutJson.edges[2].node.title}</h1>
+    <h1 style={{ margin: '15px 0' }}>{data.allAboutJson.edges[3].node.title}</h1>
     <Row>
-      {data.allAboutJson.edges[2].node.positions.map(position => (
+      {data.allAboutJson.edges[3].node.positions.map(position => (
         <Col s={4}>
           <CardPanel className="indigo darken-4 white-text center-align">
             <p style={{ fontSize: '1.2rem', marginTop: '25px' }} key={position}>{position}</p>

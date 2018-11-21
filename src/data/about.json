@@ -1,7 +1,11 @@
 [
 	{
+		"title": "Welcome",
+		"main": "Hi, hello, hej."
+	},
+	{
 		"title": "About Mission Diversity",
-		"main": "We are solving Corporate America's Diversity Problem. Mission Diverse specializes in using Vocational Technology and a Robust Sourcing Methodology to help connect our highly talented Diverse Technologists with exciting and impactful careers with our Corporate Clients."
+		"main": "We are solving Corporate America's diversity problem. Mission Diverse specializes in using vocational technology and a robust sourcing methodology to help connect our highly talented diverse technologists with exciting and impactful careers with our corporate clients."
 	},
 	{
 		"title": "Contact Us",
