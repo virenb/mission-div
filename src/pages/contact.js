@@ -14,6 +14,7 @@ const Contact = ({ data }) => (
         data-netlify="true" 
         data-netlify-honeypot="bot-field"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <input placeholder="Name" id="name" name="name" type="text" className="validate" />
         <input placeholder="Email" id="email" name="email" type="email" className="validate" />
         <textarea placeholder="Hello" id="textarea1" name="message" class="materialize-textarea" />
