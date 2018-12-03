@@ -9,14 +9,13 @@ const Contact = ({ data }) => (
     <div className="row">
       <form 
         name="contact" 
-        method="post"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
+        method="POST"
         className="col s12"
+        netlify
       >
-        <input placeholder="Name" id="name" type="text" className="validate" />
-        <input placeholder="Email" id="email" type="email" className="validate" />
-        <textarea placeholder="Hello" id="textarea1" class="materialize-textarea" />
+        <input placeholder="Name" id="name" name="name" type="text" className="validate" />
+        <input placeholder="Email" id="email" name="email" type="email" className="validate" />
+        <textarea placeholder="Hello" id="textarea1" name="message" class="materialize-textarea" />
         <button 
           style={{ backgroundColor: 'navy' }} 
           className="btn waves-effect waves-light"
