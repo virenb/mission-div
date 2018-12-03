@@ -194,7 +194,7 @@ textarea {
 	font: inherit;
 }
 html {
-	font: 112.5%/1.45em georgia, serif;
+	font-family: sans-serif;
 	box-sizing: border-box;
 	overflow-y: scroll;
 }
@@ -239,8 +239,8 @@ h1 {
 	padding-top: 0;
 	margin-bottom: 1.45rem;
 	color: inherit;
-	font-family: Georgia, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
-		Droid Sans, Helvetica Neue, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+		Helvetica Neue, sans-serif;
 	font-weight: bold;
 	text-rendering: optimizeLegibility;
 	font-size: 2.25rem;
@@ -257,8 +257,8 @@ h2 {
 	padding-top: 0;
 	margin-bottom: 1.45rem;
 	color: inherit;
-	font-family: Georgia, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
-		Droid Sans, Helvetica Neue, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+		Helvetica Neue, sans-serif;
 	font-weight: bold;
 	text-rendering: optimizeLegibility;
 	font-size: 1.62671rem;

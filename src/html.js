@@ -12,14 +12,14 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-          <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet" />         
           {this.props.headComponents}
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet" />         
         </head>
         <body {...this.props.bodyAttributes}>
+                <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>    
           {this.props.preBodyComponents}
-          <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>          
           <div
             key={`body`}
             id="___gatsby"
